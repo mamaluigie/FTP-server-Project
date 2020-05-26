@@ -9,8 +9,8 @@ import zlib
 import zipfile
 
 def main():
-    PORT = 12345
-    HOST = 'DESKTOP-DLDLEUC'
+    PORT = 12345 #enter the listening port
+    HOST = 'DESKTOP-DBLUEWC' #enter the Host computer name (this is if it is connected via ethernet)
     s = socket.socket()
     s.connect((HOST, PORT))
     loginAttempts = 0
