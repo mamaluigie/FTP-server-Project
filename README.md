@@ -9,28 +9,28 @@ The client computer can navigate through the filesystem of the server computer a
 
 # Commands that can be run from the client computer:
 
-cd
+-cd
  change directory
  
-ls
+-ls
  Linux list directory – files and directories listed together in alphabetic order
 
-dir
+-dir
  Windows list directory – directories first in alphabetic order followed by files in alphabetic order
 
-get
+-get
   get “file” from server
   *Files that are larger are transfered in chunks of 2048 bits.*
 
-put
+-put
   put “file” from client to server
   *Files that are larger are transfered in chunks of 2048 bits.*
 
-mget
+-mget
   get multiple files from server with “name.*” or “*.ext” or “*.*” (all)
 
-mput
+-mput
   put multiple files from client to server with “name.*” or “*.ext” or “*.*” (all)
 
-compress
+-compress
   compress a file on the server side so it can be smaller for when you want to 'get' the file
