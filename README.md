@@ -6,7 +6,8 @@ These two programs are designed to work together as a client and server pair. Th
 The client program must first try to login to the server with a correct username and password that can be found saved in the server computer as two string varables. The client has three attempts to answer with the correct username and password or else it gets kicked off and it must try to reconnect again.
 
 The client computer can navigate through the filesystem of the server computer and list out all of the files and directories on the computer that the server program is being run on.
-Commands that can be run from the client computer:
+
+# Commands that can be run from the client computer:
 
 cd
  change directory
