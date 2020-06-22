@@ -21,8 +21,8 @@ def compress(file):
 
 def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    host = '169.254.153.60' #host ip address
-    port = 65432 #listening port
+    host = 'host ip address' #host ip address in quotes
+    port = 65432 #listening port in quotes
     username = "admin"
     password =  "admin@gmail.com"
     s.bind((host, port))
